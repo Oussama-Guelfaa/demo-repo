@@ -26,3 +26,4 @@ if __name__ == "__main__":
     period = 5
     ema_values = calculate_ema(prices, period)
     print(f"Exponential Moving Average (EMA) for period {period}: {ema_values}")
+    
