@@ -10,7 +10,7 @@ def calculate_ema(data, period):
     multiplier = 2 / (period + 1)
     
     # Calculate the initial SMA (Simple Moving Average) for the first EMA value
-    sma = sum(data[:period]) / period
+    sma = sum(data) / len(data)
     ema_values.append(sma)
     
     # Calculate subsequent EMA values
